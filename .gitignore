@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw U2Eyes dataset
+data/raw/
+*.zip
+
+# Generated eye images / large processed image data
+data/processed/left/
+data/processed/right/
+data/processed/crops/
+data/processed/eye_crops/
+
+# Temporary files
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated eye crops
+data/processed/eyes/

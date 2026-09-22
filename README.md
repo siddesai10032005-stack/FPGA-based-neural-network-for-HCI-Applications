@@ -1,6 +1,4 @@
-from pathlib import Path
-
-README = r"""# FPGA-Based Neural Network for HCI Applications
+ FPGA-Based Neural Network for HCI Applications
 
 **Lightweight binocular gaze tracking using the U2Eyes dataset, PyTorch, webcam calibration, INT8 quantization, AMD/Xilinx Vitis AI, and FPGA-oriented XModel deployment.**
 

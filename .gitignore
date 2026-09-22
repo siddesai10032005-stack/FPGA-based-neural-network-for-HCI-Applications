@@ -74,3 +74,46 @@ src/train_multitask_v4.py
 src/train_multitask_v6.py
 src/train_multitask_v6_backup.py
 src/validate_relative_gaze.py
+
+# Local experimental models
+models/DeployV5_int_FINAL.xmodel
+models/best_gaze_model.pth
+models/best_multitask_gaze_model.pth
+models/best_multitask_v2.pth
+models/best_multitask_v3.pth
+models/best_multitask_v4.pth
+models/best_multitask_v6.pth
+models/v5_int8/
+models/v5_int8_final/
+
+# Local experimental results
+results/int8_test_metrics.json
+results/int8_test_predictions.csv
+
+# Experimental / obsolete scripts
+src/analyze_v3_errors.py
+src/calibrate_v3_pitch.py
+src/evaluate_gaze_model.py
+src/evaluate_int8_test.py
+src/evaluate_multitask_gaze.py
+src/evaluate_multitask_v2.py
+src/evaluate_multitask_v3.py
+src/evaluate_multitask_v4.py
+src/evaluate_multitask_v6.py
+src/evaluate_v3_hv_fusion.py
+src/evaluate_v5_int8.py
+src/gaze_classification_metrics.py
+src/live_v5.py
+src/live_v5_real_backup.py
+src/live_v5_real_before_smoothing.py
+src/live_v5_real_temporal_smoothing.py
+src/quantize_v5_backup.py
+src/test_rotation_conventions.py
+src/train_gaze_model.py
+src/train_multitask_gaze.py
+src/train_multitask_v2.py
+src/train_multitask_v3.py
+src/train_multitask_v4.py
+src/train_multitask_v6.py
+src/train_multitask_v6_backup.py
+src/validate_relative_gaze.py

@@ -1101,8 +1101,4 @@ https://github.com/siddesai10032005-stack/FPGA-based-neural-network-for-HCI-Appl
 ```
 """
 
-output_path = Path(__file__).resolve().parent / "README.md"
-output_path.write_text(README, encoding="utf-8")
 
-print(f"Created: {output_path}")
-print(f"README size: {output_path.stat().st_size:,} bytes")
